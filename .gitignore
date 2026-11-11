@@ -1,0 +1,29 @@
+# Unreal Engine generated folders
+Binaries/
+Build/
+DerivedDataCache/
+Intermediate/
+Saved/
+.vs/
+*.sln
+*.suo
+*.VC.db
+*.opensdf
+*.sdf
+
+# Local tooling and other version control
+.claude/
+.diversion/
+.dvignore
+.mcp.json
+AGENTS.md
+CLAUDE.md
+*.dv-conflict.*
+
+# Source art: keep the generation scripts and notes, leave out the exported
+# meshes (already imported into Content/) and build leftovers
+SourceArt/**/*.obj
+SourceArt/**/*.fbx
+SourceArt/**/__pycache__/
+*.pyc
+*.log

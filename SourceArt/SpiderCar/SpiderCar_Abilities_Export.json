@@ -1,0 +1,483 @@
+{
+ "fps": 24,
+ "spider_bounds_cm": [
+  [
+   -314.793,
+   227.268,
+   -16.662
+  ],
+  [
+   283.634,
+   -227.268,
+   176.814
+  ]
+ ],
+ "enemy_bounds_cm": [
+  [
+   -212.0,
+   99.5,
+   -13.112
+  ],
+  [
+   212.0,
+   -99.0,
+   111.14
+  ]
+ ],
+ "pivots_cm_spider_space": {
+  "MuzzleFlash": [
+   245.0,
+   -0.0,
+   30.0
+  ],
+  "Tether": [
+   242.0,
+   -0.0,
+   30.0
+  ],
+  "StormFlash": [
+   -255.0,
+   -0.0,
+   55.0
+  ],
+  "CocoonFlash": [
+   -255.0,
+   -0.0,
+   55.0
+  ],
+  "Cocoon": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "Fragments": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "Streaks": [
+   0.0,
+   -0.0,
+   0.0
+  ],
+  "Fang_L": [
+   222.0,
+   -20.0,
+   34.0
+  ],
+  "Fang_R": [
+   222.0,
+   20.0,
+   34.0
+  ],
+  "BitePoint": [
+   265.0,
+   -0.0,
+   32.0
+  ]
+ },
+ "projectile_spin_rad_per_s": [
+  13.090909090909092,
+  6.545454545454546,
+  19.636363636363637
+ ],
+ "storm_radius_cm": 950,
+ "venom_bite_point_enemy_space_cm": [
+  -210.0,
+  -0.0,
+  55.0
+ ],
+ "sparks": {
+  "SM_SpiderCar_Sparks_WebShotImpact": {
+   "speed": 0.25,
+   "dur": 12
+  },
+  "SM_SpiderCar_Sparks_StormCatch": {
+   "speed": 0.15,
+   "dur": 10
+  },
+  "SM_SpiderCar_Sparks_DashCollision": {
+   "speed": 0.32,
+   "dur": 14
+  },
+  "SM_SpiderCar_Sparks_EngineJam": {
+   "speed": 0.18,
+   "dur": 9
+  }
+ },
+ "jam_puffs": [
+  {
+   "t0": 2.2916666666666665,
+   "start": [
+    -140.0,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    -150.865,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  },
+  {
+   "t0": 2.5,
+   "start": [
+    -88.446,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    -116.695,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  },
+  {
+   "t0": 2.7083333333333335,
+   "start": [
+    -28.408,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    -21.562,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  },
+  {
+   "t0": 2.9166666666666665,
+   "start": [
+    0.0,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    6.678,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  },
+  {
+   "t0": 3.125,
+   "start": [
+    0.0,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    5.22,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  },
+  {
+   "t0": 3.3333333333333335,
+   "start": [
+    0.0,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    8.13,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  },
+  {
+   "t0": 3.5416666666666665,
+   "start": [
+    0.0,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    11.606,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  },
+  {
+   "t0": 3.75,
+   "start": [
+    0.0,
+    -0.0,
+    95.0
+   ],
+   "end": [
+    -0.678,
+    -20.0,
+    245.0
+   ],
+   "s0": 0.11999999731779099,
+   "s1": 0.75,
+   "dur": 1.1666666666666667
+  }
+ ],
+ "jam_sparks": [
+  {
+   "t0": 2.2916666666666665,
+   "at": [
+    -160.0,
+    -0.0,
+    70.0
+   ]
+  },
+  {
+   "t0": 2.7083333333333335,
+   "at": [
+    -31.742,
+    -0.0,
+    70.0
+   ]
+  },
+  {
+   "t0": 3.125,
+   "at": [
+    0.0,
+    -0.0,
+    70.0
+   ]
+  },
+  {
+   "t0": 3.5416666666666665,
+   "at": [
+    0.0,
+    -0.0,
+    70.0
+   ]
+  }
+ ],
+ "materials": {
+  "SPIDER_BLACK_METALLIC": {
+   "base": [
+    0.01600000075995922,
+    0.01600000075995922,
+    0.017999999225139618
+   ],
+   "metal": 0.699999988079071,
+   "rough": 0.23999999463558197,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 1.0
+  },
+  "SPIDER_BRUSHED_METAL": {
+   "base": [
+    0.30000001192092896,
+    0.30000001192092896,
+    0.3199999928474426
+   ],
+   "metal": 1.0,
+   "rough": 0.2800000011920929,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 0.0
+  },
+  "SPIDER_CANOPY_GLASS": {
+   "base": [
+    0.006000000052154064,
+    0.006000000052154064,
+    0.00800000037997961
+   ],
+   "metal": 0.0,
+   "rough": 0.029999999329447746,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 1.0
+  },
+  "SPIDER_CRIMSON_GLOSS": {
+   "base": [
+    0.46000000834465027,
+    0.0020000000949949026,
+    0.006000000052154064
+   ],
+   "metal": 0.3499999940395355,
+   "rough": 0.2199999988079071,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 1.0
+  },
+  "SPIDER_EMISSIVE_RED": {
+   "base": [
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164
+   ],
+   "metal": 0.0,
+   "rough": 0.30000001192092896,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 0.0
+  },
+  "SPIDER_EMISSIVE_WHITE": {
+   "base": [
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164
+   ],
+   "metal": 0.0,
+   "rough": 0.30000001192092896,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 0.0
+  },
+  "SPIDER_GUNMETAL": {
+   "base": [
+    0.06499999761581421,
+    0.06800000369548798,
+    0.07500000298023224
+   ],
+   "metal": 1.0,
+   "rough": 0.5,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 0.0
+  },
+  "SPIDER_TIRE_RUBBER": {
+   "base": [
+    0.010999999940395355,
+    0.010999999940395355,
+    0.010999999940395355
+   ],
+   "metal": 0.0,
+   "rough": 0.8500000238418579,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 0.0
+  },
+  "SPIDER_VENOM_GREEN": {
+   "base": [
+    0.019999999552965164,
+    0.019999999552965164,
+    0.019999999552965164
+   ],
+   "metal": 0.0,
+   "rough": 0.30000001192092896,
+   "emis": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "coat": 0.0
+  }
+ },
+ "meshes": {
+  "SM_SpiderCar_WebShot_Projectile": [
+   "FX_SILK_FLASH",
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_WebShot_MuzzleFlash": [
+   "FX_SILK_FLASH"
+  ],
+  "SM_SpiderCar_WebShot_Tether": [
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_WebTrap": [
+   "WEB_SILK_FILM",
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_WebGround": [
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_Fang_L": [
+   "SPIDER_CRIMSON_GLOSS",
+   "SPIDER_BLACK_METALLIC",
+   "SPIDER_GUNMETAL",
+   "SPIDER_VENOM_GREEN"
+  ],
+  "SM_SpiderCar_Fang_R": [
+   "SPIDER_CRIMSON_GLOSS",
+   "SPIDER_BLACK_METALLIC",
+   "SPIDER_GUNMETAL",
+   "SPIDER_VENOM_GREEN"
+  ],
+  "SM_SpiderCar_Venom_Flash": [
+   "FX_VENOM_GREEN"
+  ],
+  "SM_SpiderCar_Venom_Droplets": [
+   "FX_VENOM_GREEN"
+  ],
+  "SM_SpiderCar_Venom_JamSmoke": [
+   "FX_SMOKE"
+  ],
+  "SM_SpiderCar_WebStorm": [
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_WebStorm_Flash": [
+   "FX_SILK_FLASH"
+  ],
+  "SM_SpiderCar_Entangle_Wrap": [
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_Cocoon": [
+   "WEB_COCOON_FILM",
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_Cocoon_Fragments": [
+   "WEB_SILK"
+  ],
+  "SM_SpiderCar_Cocoon_Flash": [
+   "FX_SILK_FLASH"
+  ],
+  "SM_SpiderCar_Dash_Streaks": [
+   "FX_DASH_STREAK"
+  ],
+  "SM_SpiderCar_Sparks_WebShotImpact": [
+   "FX_SPARKS"
+  ],
+  "SM_SpiderCar_Sparks_StormCatch": [
+   "FX_SPARKS"
+  ],
+  "SM_SpiderCar_Sparks_DashCollision": [
+   "FX_SPARKS"
+  ],
+  "SM_SpiderCar_Sparks_EngineJam": [
+   "FX_SPARKS"
+  ]
+ }
+}
